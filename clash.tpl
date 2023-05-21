@@ -19,6 +19,7 @@ dns:
   listen: 127.0.0.1:8853
   default-nameserver:
     - 223.5.5.5
+    - 119.29.29.29
     - 8.8.4.4
   ipv6: false
   enhanced-mode: fake-ip
@@ -157,7 +158,8 @@ dns:
     - https://public.dns.iij.jp/dns-query
     - tls://8.8.4.4:853
   fallback-filter:
-    geoip: false
+    geoip: true
+    geoip-code: CN
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
@@ -168,7 +170,7 @@ dns:
       - +.google.com 
       - +.googleapis.com 
       - +.google.cn 
-      - +.googleapis.cn 
+      #- +.googleapis.cn 
       - +.xn--ngstr-lra8j.com 
       - +.googlevideo.com 
       - +.gvt1.com 
