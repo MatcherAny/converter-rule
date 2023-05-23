@@ -12,6 +12,13 @@ clash-for-android:
 profile:
   # open tracing exporter API
   tracing: true
+#【Meta专属】使用geoip.dat数据库(默认：false使用mmdb数据库)
+geodata-mode: true
+#自定义 geodata url
+geox-url:
+  geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
+  mmdb: "https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb"
 experimental:
   sniff-tls-sni: true
 dns:
