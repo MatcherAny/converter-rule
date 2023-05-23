@@ -13,7 +13,7 @@ profile:
   # open tracing exporter API
   tracing: true
 #【Meta专属】使用geoip.dat数据库(默认：false使用mmdb数据库)
-geodata-mode: true
+geodata-mode: false
 #自定义 geodata url
 geox-url:
   geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geoip.dat"
