@@ -1,1 +1,2 @@
-DOMAIN-SUFFIX,line-scdn.net
+#DOMAIN-SUFFIX,line-scdn.net
+PROCESS-NAME,jp.naver.line.android
