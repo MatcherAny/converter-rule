@@ -1,3 +1,4 @@
 PROCESS-NAME,jp.naver.line.android
+DOMAIN-SUFFIX,line.naver.jp
 PROCESS-NAME,LineLauncher.exe
 PROCESS-NAME,com.lataletw.gp
