@@ -4,4 +4,3 @@ PROCESS-NAME,WindTerm.exe
 PROCESS-NAME,KOOK.exe
 PROCESS-NAME,AsusMyASUS.exe
 PROCESS-NAME,Thunder.exe
-URL-REGEX,(.+.|^)download.epicgames.com
