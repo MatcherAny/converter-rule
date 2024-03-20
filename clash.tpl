@@ -25,10 +25,10 @@ dns:
   enable: true
   listen: 127.0.0.1:8853
   default-nameserver:
+    - 4.2.2.1
     - 223.5.5.5
     - 119.29.29.29
-    - 8.8.4.4
-  ipv6: false
+  ipv6: true
   enhanced-mode: fake-ip
   #fake-ip-range: 198.10.0.1/16
   fake-ip-filter:
@@ -155,15 +155,13 @@ dns:
     - "+.media.dssott.com"
     - "+.pvp.net"
   nameserver:
-    - 114.114.114.114
-    - tls://223.5.5.5:853
-    - tls://223.6.6.6:853
-    - tls://1.12.12.12
-    - tls://120.53.53.53
+    - https://doh.360.cn
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   fallback:
-    - https://1.0.0.1/dns-query
-    - https://public.dns.iij.jp/dns-query
-    - tls://8.8.4.4:853
+    - https://dns.google/dns-query
+    - https://1.1.1.1/dns-query
+    - https://dns.adguard.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
