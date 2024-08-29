@@ -7,3 +7,4 @@ PROCESS-NAME,Thunder.exe
 PROCESS-NAME,GWT.exe
 PROCESS-NAME,parsecd.exe
 DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN-SUFFIX,log.aliyuncs.com
