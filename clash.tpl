@@ -22,7 +22,7 @@ geox-url:
 experimental:
   sniff-tls-sni: true
 dns:
-  enable: true
+  enable: false
   listen: 127.0.0.1:8853
   default-nameserver:
     - 199.85.126.10
