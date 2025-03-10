@@ -24,14 +24,22 @@ experimental:
 dns:
   enable: false
   listen: 127.0.0.1:8853
-  default-nameserver:
-    - 199.85.126.10
-    - 4.2.2.1
-    - 223.5.5.5
-    - 119.29.29.29
   ipv6: true
   enhanced-mode: fake-ip
-  #fake-ip-range: 198.10.0.1/16
+#   default-nameserver:
+#     - 199.85.126.10
+#     - 4.2.2.1
+#     - 223.5.5.5
+#     - 119.29.29.29
+#   #fake-ip-range: 198.10.0.1/16
+#   nameserver:
+#     - https://doh.360.cn
+#     - https://doh.pub/dns-query
+#     - https://dns.alidns.com/dns-query
+#   fallback:
+#     - https://dns.google/dns-query
+#     - https://1.1.1.1/dns-query
+#     - https://dns.adguard.com/dns-query
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
@@ -155,14 +163,6 @@ dns:
          #Disney Plus"
     - "+.media.dssott.com"
     - "+.pvp.net"
-  nameserver:
-    - https://doh.360.cn
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-  fallback:
-    - https://dns.google/dns-query
-    - https://1.1.1.1/dns-query
-    - https://dns.adguard.com/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
