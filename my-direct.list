@@ -15,3 +15,4 @@ DOMAIN-SUFFIX,steamstatic.com,DIRECT
 DOMAIN-SUFFIX,steamserver.net,DIRECT
 DOMAIN-SUFFIX,test.steampowered.com,DIRECT
 DOMAIN-SUFFIX,rmbgame.net,DIRECT
+DOMAIN,download-cdn.jetbrains.com
