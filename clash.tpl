@@ -203,7 +203,7 @@ dns:
       - +.googletagmanager.com 
       - +.googletagservices.com
 {% if local.clash.new_field_name == "true" %}
-proxies: ~
+# proxies: ~
 proxy-groups: ~
 rules: ~
 {% else %}
